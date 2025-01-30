@@ -1,0 +1,10 @@
+We are using the textbook "Pro C# 10 with .NET 6" from APress
+
+11th Edition
+------------
+Title: Pro C# 10 with .NET 6
+Authors: Andrew Troelsen & Phil Japikse
+ISBN: 978-1484278680
+Amazon: https://www.amazon.com/Pro-NET-Foundational-Principles-Programming/dp/1484278682
+Source Code: https://www.github.com/apress/pro-c-sharp-10
+
