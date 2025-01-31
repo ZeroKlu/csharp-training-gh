@@ -1,6 +1,19 @@
 {
     "cSpell.words": [
+        "crossgen",
+        "hidebysig",
         "Japikse",
+        "LINQ",
+        "MSIL",
+        "neener",
+        "Neener",
+        "printfn",
         "Troelsen"
+    ],
+    "cSpell.ignoreWords": [
+        "ldarg",
+        "ldloc",
+        "maxstack",
+        "stloc"
     ]
 }

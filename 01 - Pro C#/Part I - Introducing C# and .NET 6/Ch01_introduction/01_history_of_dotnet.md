@@ -57,6 +57,12 @@ remain valid in .NET 7, 8, and 9.
 * 2023: **.NET 8**
 * 2024: **.NET 9**
 
+Note that as of .NET 5, the "Core" name was removed from .NET releases.
+
+In keeping with this naming convention, I will use the term ".NET" to
+refer to the .NET Core family of releases and will use ".NET Framework"
+to refer to the .NET Framework releases from now on.
+
 ---
 
 ### Open Source .NET
