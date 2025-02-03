@@ -23,5 +23,6 @@
         "publickeytoken",
         "stackreserve",
         "stloc"
-    ]
+    ],
+    "dotnet.defaultSolution": "HelloWorld.sln"
 }
