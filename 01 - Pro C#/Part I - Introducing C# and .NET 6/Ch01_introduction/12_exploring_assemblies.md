@@ -14,6 +14,8 @@ via NuGet:
 ```powershell
 dotnet add package Microsoft.NETCore.ILDAsm --version 8.0.0
 ```
+\* Note: I installed the .NET 8 version of `ildasm`, even though the
+book uses .NET 6.
 
 This will add the `ildasm` tool to your project and install `ildasm.exe`
 to your user profile.
@@ -27,7 +29,8 @@ where `ildasm.exe` is installed. By default:
 
 ### Using the `ildasm` Tool
 
-To use the `ildasm` tool, with the terminal still pointed to the project directory, run the following command:
+To use the `ildasm` tool, with the terminal still pointed to the 
+project directory, run the following command:
 
 ```powershell
 ildasm /all /METADATA /out=csharp.il .\bin\Debug\net8.0\HelloWorld.dll
@@ -45,5 +48,3 @@ generated for our `HelloWorld` project.:
 [Disassembled Code (csharp.il)](./HelloWorld/csharp.il)
 
 ---
-
-
