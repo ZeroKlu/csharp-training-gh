@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.ILDAsm" Version="8.0.0" />
-    <PackageReference Include="runtime.win-x64.Microsoft.NETCore.ILDAsm" Version="8.0.0" />
   </ItemGroup>
 
 </Project>

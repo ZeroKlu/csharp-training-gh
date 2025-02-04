@@ -25,7 +25,7 @@
 // ----- COFF Header:
 // Machine:                    0x014c
 // Number of sections:         0x0003
-// Time-date stamp:            0x90635a28
+// Time-date stamp:            0x9427c94c
 // Ptr to symbol table:        0x00000000
 // Number of symbols:          0x00000000
 // Size of optional header:    0x00e0
@@ -253,7 +253,7 @@
 
 // ===========================================================
 // ScopeName : HelloWorld.dll
-// MVID      : {def0a376-22cb-46c9-8d60-bff226ee4404}
+// MVID      : {6102d627-4902-466f-a55b-0a291cfb3de9}
 // 	CustomAttribute #1 (0c000002)
 // 	-------------------------------------------------------
 // 		CustomAttribute Type: 0a00000b
@@ -587,11 +587,11 @@
 // 		CustomAttribute Type: 0a000008
 // 		CustomAttributeName: System.Reflection.AssemblyInformationalVersionAttribute :: instance void .ctor(class System.String)
 // 		Length: 51
-// 		Value : 01 00 2e 31 2e 30 2e 30  2b 37 32 64 66 38 64 39 >  .1.0.0+72df8d9<
-//                       : 66 66 61 37 63 31 33 66  30 35 33 30 64 37 64 35 >ffa7c13f0530d7d5<
-//                       : 33 65 30 66 61 66 34 61  35 30 35 66 33 65 35 33 >3e0faf4a505f3e53<
-//                       : 38 00 00                                         >8               <
-// 		ctor args: ("1.0.0+72df8d9ffa7c13f0530d7d53e0faf4a505f3e538")
+// 		Value : 01 00 2e 31 2e 30 2e 30  2b 33 36 36 62 65 35 65 >  .1.0.0+366be5e<
+//                       : 36 30 66 30 33 33 30 34  37 38 61 35 35 64 63 36 >60f0330478a55dc6<
+//                       : 38 62 65 36 35 32 34 31  33 35 65 62 33 39 37 33 >8be6524135eb3973<
+//                       : 36 00 00                                         >6               <
+// 		ctor args: ("1.0.0+366be5e60f0330478a55dc68be6524135eb39736")
 // 
 // 	CustomAttribute #9 (0c00000b)
 // 	-------------------------------------------------------
@@ -678,24 +678,24 @@
   .custom /*0C000007:0A000005*/ instance void [System.Runtime/*23000001*/]System.Reflection.AssemblyCompanyAttribute/*01000006*/::.ctor(string) /* 0A000005 */ = ( 01 00 0A 48 65 6C 6C 6F 57 6F 72 6C 64 00 00 )    // ...HelloWorld..
   .custom /*0C000008:0A000006*/ instance void [System.Runtime/*23000001*/]System.Reflection.AssemblyConfigurationAttribute/*01000007*/::.ctor(string) /* 0A000006 */ = ( 01 00 05 44 65 62 75 67 00 00 )                   // ...Debug..
   .custom /*0C000009:0A000007*/ instance void [System.Runtime/*23000001*/]System.Reflection.AssemblyFileVersionAttribute/*01000008*/::.ctor(string) /* 0A000007 */ = ( 01 00 07 31 2E 30 2E 30 2E 30 00 00 )             // ...1.0.0.0..
-  .custom /*0C00000A:0A000008*/ instance void [System.Runtime/*23000001*/]System.Reflection.AssemblyInformationalVersionAttribute/*01000009*/::.ctor(string) /* 0A000008 */ = ( 01 00 2E 31 2E 30 2E 30 2B 37 32 64 66 38 64 39   // ...1.0.0+72df8d9
-                                                                                                                                                                                66 66 61 37 63 31 33 66 30 35 33 30 64 37 64 35   // ffa7c13f0530d7d5
-                                                                                                                                                                                33 65 30 66 61 66 34 61 35 30 35 66 33 65 35 33   // 3e0faf4a505f3e53
-                                                                                                                                                                                38 00 00 )                                        // 8..
+  .custom /*0C00000A:0A000008*/ instance void [System.Runtime/*23000001*/]System.Reflection.AssemblyInformationalVersionAttribute/*01000009*/::.ctor(string) /* 0A000008 */ = ( 01 00 2E 31 2E 30 2E 30 2B 33 36 36 62 65 35 65   // ...1.0.0+366be5e
+                                                                                                                                                                                36 30 66 30 33 33 30 34 37 38 61 35 35 64 63 36   // 60f0330478a55dc6
+                                                                                                                                                                                38 62 65 36 35 32 34 31 33 35 65 62 33 39 37 33   // 8be6524135eb3973
+                                                                                                                                                                                36 00 00 )                                        // 6..
   .custom /*0C00000B:0A000009*/ instance void [System.Runtime/*23000001*/]System.Reflection.AssemblyProductAttribute/*0100000A*/::.ctor(string) /* 0A000009 */ = ( 01 00 0A 48 65 6C 6C 6F 57 6F 72 6C 64 00 00 )    // ...HelloWorld..
   .custom /*0C00000C:0A00000A*/ instance void [System.Runtime/*23000001*/]System.Reflection.AssemblyTitleAttribute/*0100000B*/::.ctor(string) /* 0A00000A */ = ( 01 00 0A 48 65 6C 6C 6F 57 6F 72 6C 64 00 00 )    // ...HelloWorld..
   .hash algorithm 0x00008004
   .ver 1:0:0:0
 }
 .module HelloWorld.dll
-// MVID: {def0a376-22cb-46c9-8d60-bff226ee4404}
+// MVID: {6102d627-4902-466f-a55b-0a291cfb3de9}
 .custom /*0C000002:0A00000B*/ instance void [System.Runtime/*23000001*/]System.Runtime.CompilerServices.RefSafetyRulesAttribute/*0100000C*/::.ctor(int32) /* 0A00000B */ = ( 01 00 0B 00 00 00 00 00 ) 
 .imagebase 0x00400000
 .file alignment 0x00000200
 .stackreserve 0x00100000
 .subsystem 0x0003       // WINDOWS_CUI
 .corflags 0x00000001    //  ILONLY
-// Image base: 0x000001E19EFC0000
+// Image base: 0x0000014036120000
 
 
 // =============== CLASS MEMBERS DECLARATION ===================
