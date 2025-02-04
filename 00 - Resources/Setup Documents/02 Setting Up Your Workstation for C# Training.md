@@ -32,19 +32,14 @@ following these steps, it is best to do them in the order presented.
 
 ### Table of Contents:
 
-* [Prerequisites](#prereq)
-* [Install Visual Studio](#vs-install)
-* [Prep Your File System](#fs-prep)
-* [Set Up Visual Studio](#vs-setup)
-* [Create a Sample Application](#app-create)
-* [Customize Visual Studio](#vs-customize)
-* [Clone the C# Training Repository](#clone-training-repo)
-* [Install SQL Server](#sql-install)
-* [Install SQL Server Management Studio (SSMS)](#ssms-install)
-* [Restore the Sample Database](#db-restore)
-* [(optional) Install Codeium for Visual Studio](#codeium-vs)
-* [Customize Visual Studio Code](#vscode-customize)
-* [(optional) Install Codeium for Visual Studio Code](#codeium-vscode)
+- [Purpose:](#purpose)
+- [Table of Contents:](#table-of-contents)
+- [Prerequisites](#prerequisites)
+- [Install Visual Studio](#install-visual-studio)
+- [Prep Your File System](#prep-your-file-system)
+- [Set Up Visual Studio](#set-up-visual-studio)
+- [Create a Sample Application](#create-a-sample-application)
+- [Customize Visual Studio](#customize-visual-studio)
 
 <div style="page-break-after: always;"></div>
 
@@ -152,5 +147,130 @@ leadership.
 <div style="page-break-after: always;"></div>
 
 ### <a id="#fs-prep"></a>Prep Your File System
+
+As part of the next section, we will be creating a sample project. 
+We’ll need somewhere to place it.
+
+1. On your PC, create a folder called “Visual Studio Projects” (I 
+   created mine on the C: root)  
+   <img src="./images/vs-proj.png" style="width:100px">
+
+<div style="page-break-after: always;"></div>
+
+### <a id="vs-setup"></a>Set Up Visual Studio
+
+Visual Studio is highly configurable, and we will not be addressing the 
+majority of the options here. However, there are several that will make 
+the experience easier in training, so we will handle them now.
+
+1. Launch Visual Studio  
+   <img src="./images/vs-icon.png" style="width:40px">
+
+2. You will be prompted to log in with your Microsoft account. Click on 
+   “Sign In”
+   > Note: Do not skip this step, as we need to set up with a Microsoft 
+   > account for a later step  
+
+   <img src="./images/vs-signin.png" style="width:400px">
+
+3. On the “Sign in” dialogs, enter the email and password for your 
+   Microsoft Account You should already have an MS account associated 
+   with the email address you used to obtain your Visual Studio 
+   license.  
+   <img src="./images/vs-login.png" style="width:300px">
+
+4. Once you have successfully logged in, you will be prompted to select 
+   a color theme. I use the default “Dark” theme, but you can configure 
+   yours however you like.  
+   <img src="./images/vs-theme.png" style="width:200px">  
+   Once you select your theme, click on [Start Visual Studio] and 
+   continue to the next section
+
+<div style="page-break-after: always;"></div>
+
+### <a id="app-create"></a>Create a Sample Application
+
+Now we need to make sure everything installed properly by creating a 
+sample application in Visual Studio.
+
+1. If it’s not already running, launch Visual Studio  
+   <img src="./images/vs-icon.png" style="width:40px">
+
+2. On the startup dialog, select the option to “Create a new project”  
+   <img src="./images/vs-new.png" style="width:250px">
+
+3. Search for “console” and select the option for “Console App” Then 
+   click “Next”  
+   <img src="./images/vs-console-app.png" style="width:400px">
+   <img src="./images/vs-next.png" style="width:60px">
+
+4. Name the project “HelloWorld”  
+   <img src="./images/vs-proj-name.png" style="width:100px">
+
+5. Modify the location to point to the “Visual Studio Projects” folder 
+   you created previously, then click [Create]  
+   <img src="./images/vs-proj-loc.png" style="width:140px">
+   <img src="./images/vs-proj-create.png" style="width:60px">
+
+6. Select ".NET 8.0" for the target framework, then click [Create]
+   <img src="./images/vs-proj-fw.png" style="width:160px">
+   <img src="./images/vs-proj-create.png" style="width:60px">
+
+7. Add the following code in the Program.cs file that gets created for 
+    you (don’t worry about understanding it for now):
+
+    ```csharp
+    using System;
+
+    namespace HelloWorld
+    {
+        internal class Program
+        {
+            static void Main(string[] args)
+            {
+                Console.WriteLine("Hello World!");
+                _ = Console.ReadLine();
+            }
+        }
+    }
+    ```
+
+    <img src="./images/vs-proj-code.png" style="width:300px">
+
+8. At the top of the screen, click the “Start” button to run the 
+   program.  
+   <img src="./images/vs-start.png" style="width:60px">
+
+9. You should see the following in a new terminal window:  
+   <img src="./images/vs-hello.png" style="width:200px">
+
+<div style="page-break-after: always;"></div>
+
+### <a id="customize-visual-studio"></a>Customize Visual Studio
+
+There are a few optional convenience settings I recommend in Visual 
+Studio.
+
+1. In Visual Studio, click on TOOLS > OPTIONS  
+   <img src="./images/vs-tools.png" style="width:100px">
+   <img src="./images/vs-options.png" style="width:100px">
+
+2. Under “Projects and Solutions,” select “Locations”  
+   <img src="./images/vs-loc.png" style="width:200px">
+
+3. Update the paths to use the “Visual Studio Projects” folder you 
+   created earlier in the process.  
+   <img src="./images/vs-path.png" style="width:300px">
+
+4. Under “Source Control,” select “Git Global Settings”  
+   <img src="./images/vs-git.png" style="width:200px">
+
+5. Enter the username and email address you use for Git (these may 
+   already be filled in), and change the default location to your 
+   “Visual Studio Projects” folder, then click [OK].  
+   <img src="./images/vs-git-creds.png" style="width:300px">
+   <img src="./images/vs-ok.png" style="width:60px">
+
+<div style="page-break-after: always;"></div>
 
 
