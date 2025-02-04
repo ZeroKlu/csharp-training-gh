@@ -1,16 +1,32 @@
 {
     "cSpell.words": [
+        "Cascadia",
+        "Caskaydia",
+        "creds",
         "crossgen",
+        "Dobbeleer",
+        "Dobbeleer's",
         "finalizer",
+        "hideable",
         "hidebysig",
         "ints",
+        "jandedobbeleer",
         "Japikse",
         "LINQ",
         "MSIL",
         "neener",
         "Neener",
+        "noexit",
+        "powerline",
+        "prefs",
         "printfn",
-        "Troelsen"
+        "pwsh",
+        "signup",
+        "SSMS",
+        "Troelsen",
+        "Venv",
+        "winget",
+        "zeroklu"
     ],
     "cSpell.ignoreWords": [
         "Cnvntn",
