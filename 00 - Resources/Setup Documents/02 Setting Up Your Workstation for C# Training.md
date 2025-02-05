@@ -36,12 +36,14 @@ following these steps, it is best to do them in the order presented.
 - [Install Visual Studio](#install-visual-studio)
 - [Prep Your File System](#prep-your-file-system)
 - [Set Up Visual Studio](#set-up-visual-studio)
+- [Customize Visual Studio Code](#customize-vs-code)
 - [Create a Sample Application](#create-a-sample-application)
 - [Customize Visual Studio](#customize-visual-studio)
 - [Clone the .NET Training Repository](#clone-repo)
 - [Install SQL Server](#install-sql)
 - [Install SQL Server Management Studio](#install-ssms)
 - [Restore the Sample Database](#restore-db)
+- [(optional) Install Codeium](#install-codeium)
 
 ### <a id="prereq"></a>Prerequisites
 
@@ -146,7 +148,7 @@ leadership.
 
 <div style="page-break-after: always;"></div>
 
-### <a id="#fs-prep"></a>Prep Your File System
+### <a id="fs-prep"></a>Prep Your File System
 
 As part of the next section, we will be creating a sample project. 
 We’ll need somewhere to place it.
@@ -273,7 +275,13 @@ Studio.
 
 <div style="page-break-after: always;"></div>
 
-### <a id="#clone-repo"></a>Clone the .NET Training Repository
+### <a id="customize-vs-code"></a>Customize Visual Studio Code
+
+# TODO
+
+<div style="page-break-after: always;"></div>
+
+### <a id="clone-repo"></a>Clone the .NET Training Repository
 
 You’ll need to clone a copy of the training repository to work with.
 
@@ -324,7 +332,7 @@ If you will be using Visual Studio, skip to
 
 <div style="page-break-after: always;"></div>
 
-### <a id="#install-sql"></a>Install SQL Server
+### <a id="install-sql"></a>Install SQL Server
 
 1. Download the installation you prefer:  
    [SQL Server Developer Edition](https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x409&culture=en-us&country=us)
@@ -397,7 +405,7 @@ If you will be using Visual Studio, skip to
 
 <div style="page-break-after: always;"></div>
 
-### <a id="#install-ssms"></a>Install SQL Server Management Studio (SSMS)
+### <a id="install-ssms"></a>Install SQL Server Management Studio (SSMS)
 
 SQL Server Management Studio no longer installs along with the database engine. It is a separate, version-independent component. So, we’ll need to install it now.
 
@@ -413,10 +421,73 @@ SQL Server Management Studio no longer installs along with the database engine. 
 
 <div style="page-break-after: always;"></div>
 
-### <a id="#restore-db"></a>[Restore the Sample Database]
+### <a id="restore-db"></a>[Restore the Sample Database]
 
 I have provided an example database that includes the data we will use 
 in training. We need to make the database available in the SQL Server 
 instance we just set up.
 
+1. Launch SQL Server Management Studio  
+   <img src="./images/ssms-icon.png" style="width:40px">
 
+2. Log in either using Windows authentication as the user you added 
+   during the installation or SQL Server authentication with the SA 
+   user password you set up during installation.  
+   <img src="./images/ssms-login.png" style="width:300px">
+
+3. Right-click on the “Databases” node and select “Restore Database”  
+   <img src="./images/ssms-rc.png" style="width:300px">
+
+4. Select “Device” and click the browse […] button  
+   <img src="./images/ssms-browse.png" style="width:400px">
+
+5. In the dialog that comes up, click the “Add” button  
+   <img src="./images/ssms-add.png" style="width:300px">
+
+6. Navigate into the repository you cloned earlier and into
+   [00 - Resources/Setup Documents/database](./database/) folder, and 
+   select the file called “ExternalData.bak” then click [OK] and [OK] 
+   again.  
+   <img src="./images/ssms-ext-dat.png" style="width:400px">
+
+7. Leave the default settings and click [OK]  
+   <img src="./images/ssms-restore.png" style="width:400px">
+
+8. After the restore completes, you should see the following message:  
+   <img src="./images/ssms-success.png" style="width:200px">
+
+9. The database will now appear under the “Databases” node. Select it.  
+   <img src="./images/ssms-db.png" style="width:160px">
+
+10. Expand the “Tables” node. There should be four tables:  
+   <img src="./images/ssms-tables.png" style="width:160px">
+
+11. Click the “New Query” button at the top of the UI  
+   <img src="./images/ssms-new-query.png" style="width:80px">
+
+12. Enter the following SQL Query and click the “Execute” button or 
+    press [F5]  
+    ```sql
+    SELECT TOP 10 * FROM dbo.ZipCodes
+    ```  
+    <img src="./images/ssms-query.png" style="width:260px">
+
+13. You should see the following results of the query:  
+    <img src="./images/ssms-results.png" style="width:200px">
+
+<div style="page-break-after: always;"></div>
+
+### <a id="install-codeium"></a>(optional) Install Codeium
+
+# TODO
+
+<div style="page-break-after: always;"></div>
+
+---
+
+<div style="text-align:center;font-size:16pt;padding-top:100px;padding-bottom:100px;">
+    <p>Congratulations! Your system is set up for C# training.</p>
+    <p>Happy Coding!</p>
+</div>
+
+---
