@@ -32,16 +32,16 @@ following these steps, it is best to do them in the order presented.
 
 ### Table of Contents:
 
-- [Purpose:](#purpose)
-- [Table of Contents:](#table-of-contents)
 - [Prerequisites](#prerequisites)
 - [Install Visual Studio](#install-visual-studio)
 - [Prep Your File System](#prep-your-file-system)
 - [Set Up Visual Studio](#set-up-visual-studio)
 - [Create a Sample Application](#create-a-sample-application)
 - [Customize Visual Studio](#customize-visual-studio)
-
-<div style="page-break-after: always;"></div>
+- [Clone the .NET Training Repository](#clone-repo)
+- [Install SQL Server](#install-sql)
+- [Install SQL Server Management Studio](#install-ssms)
+- [Restore the Sample Database](#restore-db)
 
 ### <a id="prereq"></a>Prerequisites
 
@@ -272,5 +272,151 @@ Studio.
    <img src="./images/vs-ok.png" style="width:60px">
 
 <div style="page-break-after: always;"></div>
+
+### <a id="#clone-repo"></a>Clone the .NET Training Repository
+
+You’ll need to clone a copy of the training repository to work with.
+
+The repository is located here:
+
+* GitHub: https://github.com/ZeroKlu/csharp-training-gh
+
+1. In a browser, navigate to the GitHub repository and make sure
+   you're able to access it.
+   * If you cannot, request access from
+     [zeroklu@protonmail.com](mailto:zeroklu@protonmail.com?subject=C#%20Training%20Repository%20Access%20Request).
+
+2. If you will be using Visual Studio, continue to
+   [step 3](#clone-step-3).  
+   If you will be using Visual Studio Code, skip to
+   [step 7](#clone-step-7).
+
+3. <a id="clone-step-3"></a>Launch Visual Studio  
+   <img src="./images/vs-icon.png" style="width:40px">
+
+4. On the startup dialog, select the option to “Clone a repository”.  
+   <img src="./images/vs-clone.png" style="width:250px">
+
+5. in the URL to the repository you want to clone, verify that the 
+   “Path” target is your Visual Studio Projects folder, and click 
+   “Clone.”  
+   <img src="./images/vs-clone-loc.png" style="width:300px">
+   <img src="./images/vs-clone-btn.png" style="width:60px">
+
+6. The repository will be copied to your local machine.  
+   <img src="./images/vs-cloning.png" style="width:300px">
+
+If you will be using Visual Studio, skip to
+[Install SQL Server](#install-sql).
+
+7. <a id="clone-step-7"></a>Launch Visual Studio Code  
+   <img src="./images/vsc-icon.png" style="width:40px">
+
+8. Click on the Source Control icon  
+   <img src="./images/vsc-src.png" style="width:30px">
+
+9. Click on the button to “Clone Repository”  
+   <img src="./images/vsc-clone-btn.png" style="width:200px">
+
+10. Enter the URL to the repository you want to clone, then click 
+    "Clone from URL"  
+   <img src="./images/vsc-clone-url.png" style="width:300px">
+
+<div style="page-break-after: always;"></div>
+
+### <a id="#install-sql"></a>Install SQL Server
+
+1. Download the installation you prefer:  
+   [SQL Server Developer Edition](https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x409&culture=en-us&country=us)
+   or
+   [SQL Server Express Edition](https://go.microsoft.com/fwlink/p/?linkid=2216019&clcid=0x409&culture=en-us&country=us)  
+   \* I recommend SQL Server Developer Edition
+
+2. Right-click the downloaded ISO file and choose “Mount”  
+   <img src="./images/sql-mount.png" style="width:200px">
+
+3. From the mounted drive, run setup.exe  
+   <img src="./images/sql-setup.png" style="width:160px">
+
+4. Wait for the initial load to complete.  
+   <img src="./images/sql-init.png" style="width:300px">
+
+5. When the installer dialog loads, select “Installation.”  
+   <img src="./images/sql-install.png" style="width:140px">
+
+6. Select the option to create a “New SQL Server standalone 
+   installation…”  
+   <img src="./images/sql-new.png" style="width:340px">
+
+7. Select your free edition and click [Next]  
+   <img src="./images/sql-edition.png" style="width:240px">
+
+8. Accept the license terms, then click [Next]  
+   <img src="./images/sql-lic.png" style="width:240px">
+
+9. Your system will be scanned for compatibility with the install.  
+   <img src="./images/sql-scan.png" style="width:400px">
+
+10. You may receive a warning about the Windows Firewall. This is not a 
+    problem for our purposes  
+    <img src="./images/sql-warn.png" style="width:260px">
+
+11. Uncheck the option for the Azure extension and click [Next]. We 
+    won’t be working in Azure.  
+    <img src="./images/sql-az.png" style="width:160px">
+
+12. Under “Instance Features,” we only need “Database Engine Services.” 
+    Click [Next]  
+    <img src="./images/sql-feat.png" style="width:160px">
+
+13. Leave the default selection of “Default instance” and click [Next]  
+    <img src="./images/sql-def.png" style="width:100px">
+
+14. Leave the default service settings and click [Next]  
+    <img src="./images/sql-svc.png" style="width:360px">
+
+15. Change the “Authentication Mode” to “Mixed Mode…” and enter a 
+    password for the SA user.  
+    <img src="./images/sql-auth.png" style="width:340px">
+
+16. Click the button labeled “Add Current User”  
+    <img src="./images/sql-add-user.png" style="width:80px">
+
+17. After your Windows user appears in the list, click [Next]  
+    <img src="./images/sql-user.png" style="width:180px">
+
+18. Review the installation summary, and click “Install”  
+    <img src="./images/sql-summary.png" style="width:360px">
+
+19. SQL Server will install. This may take several minutes, so be 
+    patient.  
+    <img src="./images/sql-installing.png" style="width:400px">
+
+20. When the install completes, you should see the following:  
+    <img src="./images/sql-success.png" style="width:300px">
+
+<div style="page-break-after: always;"></div>
+
+### <a id="#install-ssms"></a>Install SQL Server Management Studio (SSMS)
+
+SQL Server Management Studio no longer installs along with the database engine. It is a separate, version-independent component. So, we’ll need to install it now.
+
+1. In your terminal, run the following command:  
+   `winget install Microsoft.SQLServerManagementStudio`  
+   <img src="./images/winget-ssms.png" style="width:500px">
+
+2. Respond “Yes” to the UAC prompt  
+   <img src="./images/ssms-uac.png" style="width:200px">
+
+3. The installer will run  
+   <img src="./images/ssms-inst.png" style="width:400px">
+
+<div style="page-break-after: always;"></div>
+
+### <a id="#restore-db"></a>[Restore the Sample Database]
+
+I have provided an example database that includes the data we will use 
+in training. We need to make the database available in the SQL Server 
+instance we just set up.
 
 
