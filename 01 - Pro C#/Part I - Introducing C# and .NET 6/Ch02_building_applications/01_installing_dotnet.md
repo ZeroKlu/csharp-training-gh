@@ -18,7 +18,8 @@ book is also applicable to .NET 8.
 
 ### .NET Validation
 
-There are several command-lie switches you can use to validate that you have the correct version of .NET installed.
+There are several command-lie switches you can use to validate that you 
+have the correct version of .NET installed.
 
 #### .NET Version
 

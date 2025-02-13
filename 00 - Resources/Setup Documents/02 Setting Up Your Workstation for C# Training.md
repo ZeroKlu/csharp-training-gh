@@ -130,20 +130,24 @@ leadership.
     <img src="./images/vs-desk-opt-1.png" style="width:180px">
     <img src="./images/vs-desk-opt-2.png" style="width:200px">
 
-15. Click on “Modify”  
+15. Back in the left-hand pane, check the box for “.Data storage
+    and processing”  
+    <img src="./images/vs-data.png" style="width:300px">
+
+16. Click on “Modify”  
     <img src="./images/vs-modify.png" style="width:200px">
 
-16. As usual, respond “Yes” to the UAC warning:  
+17. As usual, respond “Yes” to the UAC warning:  
     <img src="./images/vs-mod-uac.png" style="width:200px">
 
 > Note: You can install any additional components you want, but the 
 > items listed above are sufficient for everything covered in the 
 > training course.
 
-17. The Visual Studio components will now install.  
+18. The Visual Studio components will now install.  
     <img src="./images/vs-mod-inst.png" style="width:400px">
 
-18. After completion, close out of the Visual Studio installer and 
+19. After completion, close out of the Visual Studio installer and 
     proceed to the next section.
 
 <div style="page-break-after: always;"></div>
@@ -277,7 +281,16 @@ Studio.
 
 ### <a id="customize-vs-code"></a>Customize Visual Studio Code
 
-# TODO
+Although Visual Studio is the flagship IDE for .NET development, you can
+do many kinds of C# development with Visual Studio Code (the main
+exception being UI development, since VS Code does not have a visual
+UI designer like Visual Studio does). In order to use Visual Studio
+Code, you will need to install the C# extension:
+
+* [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+
+As noted previously, even when using VS Code for development, you need to 
+be signed into an account associated with a license for Visual Studio.
 
 <div style="page-break-after: always;"></div>
 
@@ -479,7 +492,39 @@ instance we just set up.
 
 ### <a id="install-codeium"></a>(optional) Install Codeium
 
-# TODO
+The team of developers I run use [Codeium](https://codeium.com/) as an
+AI companion while coding. I don't recommend relying on an AI
+assistant to write your code for you, but it's definitely useful to
+have an AI companion that can provide suggestions and answer questions.
+In particular, I find it especially useful to be able to ask an AI to
+explain code you did not write yourself rather than copy-pasting.
+
+You can create a free account here:
+[https://codeium.com/account/register](https://codeium.com/account/register)
+
+That said, the folks at Codeium are really great, so if you're getting
+value from the product, I'd ask that you consider subscribing to their
+premium tier at $15/month.
+
+To install Codeium:
+
+* In Visual Studio:  
+  Manual download located
+  [here](https://marketplace.visualstudio.com/items?itemName=Codeium.CodeiumVS)
+    1. Click on "Extensions" > "Manage Extensions"
+    2. Search for "Codeium"
+    3. Select the "Codeium" extension (not "Enterprise") 
+       <img src="./images/vs-codeium.png" style="width:200px">
+    4. Click the "Install" button
+
+* In Visual Studio Code:
+  Manual download located
+  [here](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
+    1. Click on the Extensions icon
+    2. Search for "Codeium"
+    3. Select the "Codeium" extension (not "Enterprise")  
+       <img src="./images/vsc-codeium.png" style="width:140px">
+    4. Click the "Install" button
 
 <div style="page-break-after: always;"></div>
 
