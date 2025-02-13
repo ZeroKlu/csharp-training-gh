@@ -59,5 +59,3 @@ do so now.
     * This license is what it used by my team.
 
 ---
-
-
