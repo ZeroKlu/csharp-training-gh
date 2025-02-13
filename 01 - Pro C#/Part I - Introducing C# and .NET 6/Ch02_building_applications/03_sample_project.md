@@ -42,7 +42,9 @@ Let's create a sample project in Visual Studio.
    ```
 
 7. Click on the "run" button to compile and run the program.  
-    <img src="./images/vs-play-sample.png" style="width:120px">
+    <img src="./images/vs-play-sample.png" style="width:120px">  
+    > Note: You can also navigate to the project folder in a terminal
+    > and run the `dotnet run` command.
 
 8. You should see the following output:  
     <img src="./images/vs-run-sample.png" style="width:260px">
@@ -95,7 +97,9 @@ Let's create a sample project in Visual Studio Code.
 
 9. Click the drop-down arrow next to the "run" button and select the "Run
    project associated with this file" option.  
-    <img src="./images/vsc-play-sample.png" style="width:220px">
+    <img src="./images/vsc-play-sample.png" style="width:220px">  
+    > Note: You can also navigate to the project folder in a terminal
+    > and run the `dotnet run` command.
 
 10. Once the project compiles and runs, you should see the following in the
     VS Code terminal:  
@@ -144,5 +148,35 @@ modifying the `TargetFramework` property.
 Note: In Visual Studio, you can also modify this from the project's
 "Properties" tab.  
 <img src="./images/vs-sample-props.png" style="width:400px">
+
+---
+
+### C# 10 Availability
+
+Since the book uses C# 10, it is important to ensure that we are using
+a version of .NET that supports C# 10. For our purposes, that means .NET
+6 or later, and specifically .NET 8 or later in order to be on a
+currently supported version.
+
+THis table shows the relationship between C# version and .NET version as
+of the time of writing:
+
+|Target Framework|Version|C# Language Version|
+|-|-|-|
+|.NET|9.x|C# 13|
+|.NET|8.x|C# 12|
+|.NET|7.x|C# 11|
+|.NET|6.x|C# 10|
+|.NET Core|5.x|C# 9|
+|.NET Core|3.x|C# 8|
+|.NET Core|2.x|C# 7.3|
+|.NET Standard|2.1|C# 8|
+|.NET Standard|2.0|C# 7.3|
+|.NET Standard|1.x|C# 7.3|
+|.NET Framework|all|C# 7.3|
+|||
+
+> Note: Although .NET 8 targets C# 12 instead of C# 10, all lessons in the
+> book are supported.
 
 ---
