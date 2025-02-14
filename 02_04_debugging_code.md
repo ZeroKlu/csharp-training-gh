@@ -23,7 +23,8 @@ Adding a breakpoint to the first line of code looks like this:
 
 #### In Visual Studio Code
 
-In Visual Studio Code, you can set breakpoints by clicking in the area to the left of the line number.  
+In Visual Studio Code, you can set breakpoints by clicking in the area to
+the left of the line number.  
 <img src="./images/vsc-insert-bp.png" style="width:140px">
 
 Adding a breakpoint to the first line of code looks like this:  
@@ -74,5 +75,12 @@ To continue running, you can press [F5] or click the continue button.
 
 To continue running, you can press [F5] or click the continue button.  
 <img src="./images/vsc-cont.png" style="width:80px">
+
+---
+
+### Picking an IDE
+
+Moving forward, we will be using more of the advanced tools included with
+Visual Studio, so I will no longer be presenting both IDEs.
 
 ---

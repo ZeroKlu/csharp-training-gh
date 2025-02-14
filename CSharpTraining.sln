@@ -1,0 +1,274 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Resources", "00 - Resources", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup Documents", "Setup Documents", "{FA8EBDDC-686D-449D-9100-FB77DF24FB63}"
+	ProjectSection(SolutionItems) = preProject
+		00 - Resources\Setup Documents\01 Setting Up Your Workstation for Development Training.md = 00 - Resources\Setup Documents\01 Setting Up Your Workstation for Development Training.md
+		00 - Resources\Setup Documents\01 Setting Up Your Workstation for Development Training.pdf = 00 - Resources\Setup Documents\01 Setting Up Your Workstation for Development Training.pdf
+		00 - Resources\Setup Documents\02 Setting Up Your Workstation for C# Training.md = 00 - Resources\Setup Documents\02 Setting Up Your Workstation for C# Training.md
+		00 - Resources\Setup Documents\02 Setting Up Your Workstation for C# Training.pdf = 00 - Resources\Setup Documents\02 Setting Up Your Workstation for C# Training.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{A46A5285-C617-4EFB-9AE9-CC66445FCEB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Textbook", "Textbook", "{0CC5BC8C-1DA7-437A-BAAB-93C917B4302B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{CB5526E7-DE43-489E-92AF-1AAF789F7FD1}"
+	ProjectSection(SolutionItems) = preProject
+		00 - Resources\Setup Documents\images\app-installer.png = 00 - Resources\Setup Documents\images\app-installer.png
+		00 - Resources\Setup Documents\images\bb-cloud.png = 00 - Resources\Setup Documents\images\bb-cloud.png
+		00 - Resources\Setup Documents\images\bb-email.png = 00 - Resources\Setup Documents\images\bb-email.png
+		00 - Resources\Setup Documents\images\bb-firewall.png = 00 - Resources\Setup Documents\images\bb-firewall.png
+		00 - Resources\Setup Documents\images\bb-get.png = 00 - Resources\Setup Documents\images\bb-get.png
+		00 - Resources\Setup Documents\images\bb-grant.png = 00 - Resources\Setup Documents\images\bb-grant.png
+		00 - Resources\Setup Documents\images\bb-login.png = 00 - Resources\Setup Documents\images\bb-login.png
+		00 - Resources\Setup Documents\images\bb-next.png = 00 - Resources\Setup Documents\images\bb-next.png
+		00 - Resources\Setup Documents\images\bb-no-jira.png = 00 - Resources\Setup Documents\images\bb-no-jira.png
+		00 - Resources\Setup Documents\images\bb-pass.png = 00 - Resources\Setup Documents\images\bb-pass.png
+		00 - Resources\Setup Documents\images\bb-skip.png = 00 - Resources\Setup Documents\images\bb-skip.png
+		00 - Resources\Setup Documents\images\bb-success.png = 00 - Resources\Setup Documents\images\bb-success.png
+		00 - Resources\Setup Documents\images\bb-url.png = 00 - Resources\Setup Documents\images\bb-url.png
+		00 - Resources\Setup Documents\images\bb-user.png = 00 - Resources\Setup Documents\images\bb-user.png
+		00 - Resources\Setup Documents\images\bb-verify.png = 00 - Resources\Setup Documents\images\bb-verify.png
+		00 - Resources\Setup Documents\images\code-dot.png = 00 - Resources\Setup Documents\images\code-dot.png
+		00 - Resources\Setup Documents\images\code-proj.png = 00 - Resources\Setup Documents\images\code-proj.png
+		00 - Resources\Setup Documents\images\code-trust.png = 00 - Resources\Setup Documents\images\code-trust.png
+		00 - Resources\Setup Documents\images\cpl-file-ext.png = 00 - Resources\Setup Documents\images\cpl-file-ext.png
+		00 - Resources\Setup Documents\images\file_extensions.png = 00 - Resources\Setup Documents\images\file_extensions.png
+		00 - Resources\Setup Documents\images\find-glyph.png = 00 - Resources\Setup Documents\images\find-glyph.png
+		00 - Resources\Setup Documents\images\font-download.png = 00 - Resources\Setup Documents\images\font-download.png
+		00 - Resources\Setup Documents\images\font-finish.png = 00 - Resources\Setup Documents\images\font-finish.png
+		00 - Resources\Setup Documents\images\font-inst.png = 00 - Resources\Setup Documents\images\font-inst.png
+		00 - Resources\Setup Documents\images\gh-ads.png = 00 - Resources\Setup Documents\images\gh-ads.png
+		00 - Resources\Setup Documents\images\gh-allow.png = 00 - Resources\Setup Documents\images\gh-allow.png
+		00 - Resources\Setup Documents\images\gh-always.png = 00 - Resources\Setup Documents\images\gh-always.png
+		00 - Resources\Setup Documents\images\gh-auth.png = 00 - Resources\Setup Documents\images\gh-auth.png
+		00 - Resources\Setup Documents\images\gh-clone.png = 00 - Resources\Setup Documents\images\gh-clone.png
+		00 - Resources\Setup Documents\images\gh-code.png = 00 - Resources\Setup Documents\images\gh-code.png
+		00 - Resources\Setup Documents\images\gh-creds.png = 00 - Resources\Setup Documents\images\gh-creds.png
+		00 - Resources\Setup Documents\images\gh-dash.png = 00 - Resources\Setup Documents\images\gh-dash.png
+		00 - Resources\Setup Documents\images\gh-puzzle.png = 00 - Resources\Setup Documents\images\gh-puzzle.png
+		00 - Resources\Setup Documents\images\gh-repos.png = 00 - Resources\Setup Documents\images\gh-repos.png
+		00 - Resources\Setup Documents\images\gh-signup.png = 00 - Resources\Setup Documents\images\gh-signup.png
+		00 - Resources\Setup Documents\images\gh-verify.png = 00 - Resources\Setup Documents\images\gh-verify.png
+		00 - Resources\Setup Documents\images\git-email.png = 00 - Resources\Setup Documents\images\git-email.png
+		00 - Resources\Setup Documents\images\git-finish.png = 00 - Resources\Setup Documents\images\git-finish.png
+		00 - Resources\Setup Documents\images\git-inst.png = 00 - Resources\Setup Documents\images\git-inst.png
+		00 - Resources\Setup Documents\images\git-uac.png = 00 - Resources\Setup Documents\images\git-uac.png
+		00 - Resources\Setup Documents\images\git-user.png = 00 - Resources\Setup Documents\images\git-user.png
+		00 - Resources\Setup Documents\images\npp-inst.png = 00 - Resources\Setup Documents\images\npp-inst.png
+		00 - Resources\Setup Documents\images\npp-uac.png = 00 - Resources\Setup Documents\images\npp-uac.png
+		00 - Resources\Setup Documents\images\npp.png = 00 - Resources\Setup Documents\images\npp.png
+		00 - Resources\Setup Documents\images\posh-finish.png = 00 - Resources\Setup Documents\images\posh-finish.png
+		00 - Resources\Setup Documents\images\posh-invoke.png = 00 - Resources\Setup Documents\images\posh-invoke.png
+		00 - Resources\Setup Documents\images\posh-jan.png = 00 - Resources\Setup Documents\images\posh-jan.png
+		00 - Resources\Setup Documents\images\posh-load.png = 00 - Resources\Setup Documents\images\posh-load.png
+		00 - Resources\Setup Documents\images\posh-make-prof.png = 00 - Resources\Setup Documents\images\posh-make-prof.png
+		00 - Resources\Setup Documents\images\posh-prof.png = 00 - Resources\Setup Documents\images\posh-prof.png
+		00 - Resources\Setup Documents\images\posh-prompt.png = 00 - Resources\Setup Documents\images\posh-prompt.png
+		00 - Resources\Setup Documents\images\proj-folder.png = 00 - Resources\Setup Documents\images\proj-folder.png
+		00 - Resources\Setup Documents\images\pwsh-complete.png = 00 - Resources\Setup Documents\images\pwsh-complete.png
+		00 - Resources\Setup Documents\images\pwsh-uac.png = 00 - Resources\Setup Documents\images\pwsh-uac.png
+		00 - Resources\Setup Documents\images\pwsh.png = 00 - Resources\Setup Documents\images\pwsh.png
+		00 - Resources\Setup Documents\images\quake-loc.png = 00 - Resources\Setup Documents\images\quake-loc.png
+		00 - Resources\Setup Documents\images\quake-name.png = 00 - Resources\Setup Documents\images\quake-name.png
+		00 - Resources\Setup Documents\images\quake-shell.png = 00 - Resources\Setup Documents\images\quake-shell.png
+		00 - Resources\Setup Documents\images\quake-term.png = 00 - Resources\Setup Documents\images\quake-term.png
+		00 - Resources\Setup Documents\images\reg-file.png = 00 - Resources\Setup Documents\images\reg-file.png
+		00 - Resources\Setup Documents\images\reg-open.png = 00 - Resources\Setup Documents\images\reg-open.png
+		00 - Resources\Setup Documents\images\reg-run.png = 00 - Resources\Setup Documents\images\reg-run.png
+		00 - Resources\Setup Documents\images\sql-add-user.png = 00 - Resources\Setup Documents\images\sql-add-user.png
+		00 - Resources\Setup Documents\images\sql-auth.png = 00 - Resources\Setup Documents\images\sql-auth.png
+		00 - Resources\Setup Documents\images\sql-az.png = 00 - Resources\Setup Documents\images\sql-az.png
+		00 - Resources\Setup Documents\images\sql-def.png = 00 - Resources\Setup Documents\images\sql-def.png
+		00 - Resources\Setup Documents\images\sql-edition.png = 00 - Resources\Setup Documents\images\sql-edition.png
+		00 - Resources\Setup Documents\images\sql-feat.png = 00 - Resources\Setup Documents\images\sql-feat.png
+		00 - Resources\Setup Documents\images\sql-init.png = 00 - Resources\Setup Documents\images\sql-init.png
+		00 - Resources\Setup Documents\images\sql-install.png = 00 - Resources\Setup Documents\images\sql-install.png
+		00 - Resources\Setup Documents\images\sql-installing.png = 00 - Resources\Setup Documents\images\sql-installing.png
+		00 - Resources\Setup Documents\images\sql-lic.png = 00 - Resources\Setup Documents\images\sql-lic.png
+		00 - Resources\Setup Documents\images\sql-login.png = 00 - Resources\Setup Documents\images\sql-login.png
+		00 - Resources\Setup Documents\images\sql-mount.png = 00 - Resources\Setup Documents\images\sql-mount.png
+		00 - Resources\Setup Documents\images\sql-new.png = 00 - Resources\Setup Documents\images\sql-new.png
+		00 - Resources\Setup Documents\images\sql-scan.png = 00 - Resources\Setup Documents\images\sql-scan.png
+		00 - Resources\Setup Documents\images\sql-setup.png = 00 - Resources\Setup Documents\images\sql-setup.png
+		00 - Resources\Setup Documents\images\sql-success.png = 00 - Resources\Setup Documents\images\sql-success.png
+		00 - Resources\Setup Documents\images\sql-summary.png = 00 - Resources\Setup Documents\images\sql-summary.png
+		00 - Resources\Setup Documents\images\sql-svc.png = 00 - Resources\Setup Documents\images\sql-svc.png
+		00 - Resources\Setup Documents\images\sql-user.png = 00 - Resources\Setup Documents\images\sql-user.png
+		00 - Resources\Setup Documents\images\sql-warn.png = 00 - Resources\Setup Documents\images\sql-warn.png
+		00 - Resources\Setup Documents\images\ssms-add.png = 00 - Resources\Setup Documents\images\ssms-add.png
+		00 - Resources\Setup Documents\images\ssms-browse.png = 00 - Resources\Setup Documents\images\ssms-browse.png
+		00 - Resources\Setup Documents\images\ssms-db.png = 00 - Resources\Setup Documents\images\ssms-db.png
+		00 - Resources\Setup Documents\images\ssms-ext-dat.png = 00 - Resources\Setup Documents\images\ssms-ext-dat.png
+		00 - Resources\Setup Documents\images\ssms-icon.png = 00 - Resources\Setup Documents\images\ssms-icon.png
+		00 - Resources\Setup Documents\images\ssms-inst.png = 00 - Resources\Setup Documents\images\ssms-inst.png
+		00 - Resources\Setup Documents\images\ssms-login.png = 00 - Resources\Setup Documents\images\ssms-login.png
+		00 - Resources\Setup Documents\images\ssms-new-query.png = 00 - Resources\Setup Documents\images\ssms-new-query.png
+		00 - Resources\Setup Documents\images\ssms-query.png = 00 - Resources\Setup Documents\images\ssms-query.png
+		00 - Resources\Setup Documents\images\ssms-rc.png = 00 - Resources\Setup Documents\images\ssms-rc.png
+		00 - Resources\Setup Documents\images\ssms-restore.png = 00 - Resources\Setup Documents\images\ssms-restore.png
+		00 - Resources\Setup Documents\images\ssms-results.png = 00 - Resources\Setup Documents\images\ssms-results.png
+		00 - Resources\Setup Documents\images\ssms-success.png = 00 - Resources\Setup Documents\images\ssms-success.png
+		00 - Resources\Setup Documents\images\ssms-tables.png = 00 - Resources\Setup Documents\images\ssms-tables.png
+		00 - Resources\Setup Documents\images\ssms-uac.png = 00 - Resources\Setup Documents\images\ssms-uac.png
+		00 - Resources\Setup Documents\images\term-inst.png = 00 - Resources\Setup Documents\images\term-inst.png
+		00 - Resources\Setup Documents\images\term-terms.png = 00 - Resources\Setup Documents\images\term-terms.png
+		00 - Resources\Setup Documents\images\vs-alert.png = 00 - Resources\Setup Documents\images\vs-alert.png
+		00 - Resources\Setup Documents\images\vs-asp-opt.png = 00 - Resources\Setup Documents\images\vs-asp-opt.png
+		00 - Resources\Setup Documents\images\vs-asp.png = 00 - Resources\Setup Documents\images\vs-asp.png
+		00 - Resources\Setup Documents\images\vs-clone-btn.png = 00 - Resources\Setup Documents\images\vs-clone-btn.png
+		00 - Resources\Setup Documents\images\vs-clone-loc.png = 00 - Resources\Setup Documents\images\vs-clone-loc.png
+		00 - Resources\Setup Documents\images\vs-clone.png = 00 - Resources\Setup Documents\images\vs-clone.png
+		00 - Resources\Setup Documents\images\vs-cloning.png = 00 - Resources\Setup Documents\images\vs-cloning.png
+		00 - Resources\Setup Documents\images\vs-codeium.png = 00 - Resources\Setup Documents\images\vs-codeium.png
+		00 - Resources\Setup Documents\images\vs-console-app.png = 00 - Resources\Setup Documents\images\vs-console-app.png
+		00 - Resources\Setup Documents\images\vs-data.png = 00 - Resources\Setup Documents\images\vs-data.png
+		00 - Resources\Setup Documents\images\vs-desk-opt-1.png = 00 - Resources\Setup Documents\images\vs-desk-opt-1.png
+		00 - Resources\Setup Documents\images\vs-desk-opt-2.png = 00 - Resources\Setup Documents\images\vs-desk-opt-2.png
+		00 - Resources\Setup Documents\images\vs-desk.png = 00 - Resources\Setup Documents\images\vs-desk.png
+		00 - Resources\Setup Documents\images\vs-git-creds.png = 00 - Resources\Setup Documents\images\vs-git-creds.png
+		00 - Resources\Setup Documents\images\vs-git.png = 00 - Resources\Setup Documents\images\vs-git.png
+		00 - Resources\Setup Documents\images\vs-hello.png = 00 - Resources\Setup Documents\images\vs-hello.png
+		00 - Resources\Setup Documents\images\vs-icon.png = 00 - Resources\Setup Documents\images\vs-icon.png
+		00 - Resources\Setup Documents\images\vs-inst-run.png = 00 - Resources\Setup Documents\images\vs-inst-run.png
+		00 - Resources\Setup Documents\images\vs-inst.png = 00 - Resources\Setup Documents\images\vs-inst.png
+		00 - Resources\Setup Documents\images\vs-install.png = 00 - Resources\Setup Documents\images\vs-install.png
+		00 - Resources\Setup Documents\images\vs-loc.png = 00 - Resources\Setup Documents\images\vs-loc.png
+		00 - Resources\Setup Documents\images\vs-login.png = 00 - Resources\Setup Documents\images\vs-login.png
+		00 - Resources\Setup Documents\images\vs-mod-inst.png = 00 - Resources\Setup Documents\images\vs-mod-inst.png
+		00 - Resources\Setup Documents\images\vs-mod-uac.png = 00 - Resources\Setup Documents\images\vs-mod-uac.png
+		00 - Resources\Setup Documents\images\vs-mod.png = 00 - Resources\Setup Documents\images\vs-mod.png
+		00 - Resources\Setup Documents\images\vs-modify.png = 00 - Resources\Setup Documents\images\vs-modify.png
+		00 - Resources\Setup Documents\images\vs-new.png = 00 - Resources\Setup Documents\images\vs-new.png
+		00 - Resources\Setup Documents\images\vs-next.png = 00 - Resources\Setup Documents\images\vs-next.png
+		00 - Resources\Setup Documents\images\vs-ok.png = 00 - Resources\Setup Documents\images\vs-ok.png
+		00 - Resources\Setup Documents\images\vs-options.png = 00 - Resources\Setup Documents\images\vs-options.png
+		00 - Resources\Setup Documents\images\vs-path.png = 00 - Resources\Setup Documents\images\vs-path.png
+		00 - Resources\Setup Documents\images\vs-proj-code.png = 00 - Resources\Setup Documents\images\vs-proj-code.png
+		00 - Resources\Setup Documents\images\vs-proj-create.png = 00 - Resources\Setup Documents\images\vs-proj-create.png
+		00 - Resources\Setup Documents\images\vs-proj-fw.png = 00 - Resources\Setup Documents\images\vs-proj-fw.png
+		00 - Resources\Setup Documents\images\vs-proj-loc.png = 00 - Resources\Setup Documents\images\vs-proj-loc.png
+		00 - Resources\Setup Documents\images\vs-proj-name.png = 00 - Resources\Setup Documents\images\vs-proj-name.png
+		00 - Resources\Setup Documents\images\vs-proj.png = 00 - Resources\Setup Documents\images\vs-proj.png
+		00 - Resources\Setup Documents\images\vs-signin.png = 00 - Resources\Setup Documents\images\vs-signin.png
+		00 - Resources\Setup Documents\images\vs-start.png = 00 - Resources\Setup Documents\images\vs-start.png
+		00 - Resources\Setup Documents\images\vs-success.png = 00 - Resources\Setup Documents\images\vs-success.png
+		00 - Resources\Setup Documents\images\vs-theme.png = 00 - Resources\Setup Documents\images\vs-theme.png
+		00 - Resources\Setup Documents\images\vs-tools.png = 00 - Resources\Setup Documents\images\vs-tools.png
+		00 - Resources\Setup Documents\images\vs-uac.png = 00 - Resources\Setup Documents\images\vs-uac.png
+		00 - Resources\Setup Documents\images\vs-update-uac.png = 00 - Resources\Setup Documents\images\vs-update-uac.png
+		00 - Resources\Setup Documents\images\vs-update.png = 00 - Resources\Setup Documents\images\vs-update.png
+		00 - Resources\Setup Documents\images\vsc-autosave.png = 00 - Resources\Setup Documents\images\vsc-autosave.png
+		00 - Resources\Setup Documents\images\vsc-bb.png = 00 - Resources\Setup Documents\images\vsc-bb.png
+		00 - Resources\Setup Documents\images\vsc-clone-btn.png = 00 - Resources\Setup Documents\images\vsc-clone-btn.png
+		00 - Resources\Setup Documents\images\vsc-clone-url.png = 00 - Resources\Setup Documents\images\vsc-clone-url.png
+		00 - Resources\Setup Documents\images\vsc-clone.png = 00 - Resources\Setup Documents\images\vsc-clone.png
+		00 - Resources\Setup Documents\images\vsc-codeium.png = 00 - Resources\Setup Documents\images\vsc-codeium.png
+		00 - Resources\Setup Documents\images\vsc-color.png = 00 - Resources\Setup Documents\images\vsc-color.png
+		00 - Resources\Setup Documents\images\vsc-ext.png = 00 - Resources\Setup Documents\images\vsc-ext.png
+		00 - Resources\Setup Documents\images\vsc-finish.png = 00 - Resources\Setup Documents\images\vsc-finish.png
+		00 - Resources\Setup Documents\images\vsc-icon.png = 00 - Resources\Setup Documents\images\vsc-icon.png
+		00 - Resources\Setup Documents\images\vsc-icons.png = 00 - Resources\Setup Documents\images\vsc-icons.png
+		00 - Resources\Setup Documents\images\vsc-inst.png = 00 - Resources\Setup Documents\images\vsc-inst.png
+		00 - Resources\Setup Documents\images\vsc-prefs.png = 00 - Resources\Setup Documents\images\vsc-prefs.png
+		00 - Resources\Setup Documents\images\vsc-settings.png = 00 - Resources\Setup Documents\images\vsc-settings.png
+		00 - Resources\Setup Documents\images\vsc-source.png = 00 - Resources\Setup Documents\images\vsc-source.png
+		00 - Resources\Setup Documents\images\vsc-src.png = 00 - Resources\Setup Documents\images\vsc-src.png
+		00 - Resources\Setup Documents\images\vsc-term.png = 00 - Resources\Setup Documents\images\vsc-term.png
+		00 - Resources\Setup Documents\images\vsc-theme.png = 00 - Resources\Setup Documents\images\vsc-theme.png
+		00 - Resources\Setup Documents\images\winget-npp.png = 00 - Resources\Setup Documents\images\winget-npp.png
+		00 - Resources\Setup Documents\images\winget-posh.png = 00 - Resources\Setup Documents\images\winget-posh.png
+		00 - Resources\Setup Documents\images\winget-pwsh.png = 00 - Resources\Setup Documents\images\winget-pwsh.png
+		00 - Resources\Setup Documents\images\winget-ssms.png = 00 - Resources\Setup Documents\images\winget-ssms.png
+		00 - Resources\Setup Documents\images\winget-term.png = 00 - Resources\Setup Documents\images\winget-term.png
+		00 - Resources\Setup Documents\images\winget-vs.png = 00 - Resources\Setup Documents\images\winget-vs.png
+		00 - Resources\Setup Documents\images\winget-vsc.png = 00 - Resources\Setup Documents\images\winget-vsc.png
+		00 - Resources\Setup Documents\images\wt-appearance.png = 00 - Resources\Setup Documents\images\wt-appearance.png
+		00 - Resources\Setup Documents\images\wt-font.png = 00 - Resources\Setup Documents\images\wt-font.png
+		00 - Resources\Setup Documents\images\wt-settings.png = 00 - Resources\Setup Documents\images\wt-settings.png
+		00 - Resources\Setup Documents\images\wt-startup.png = 00 - Resources\Setup Documents\images\wt-startup.png
+		00 - Resources\Setup Documents\images\zeroklu.png = 00 - Resources\Setup Documents\images\zeroklu.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{82E0882E-F50A-410F-8CD1-18306CF96F94}"
+	ProjectSection(SolutionItems) = preProject
+		00 - Resources\Setup Documents\database\ExternalData.bak = 00 - Resources\Setup Documents\database\ExternalData.bak
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Pro C#", "01 - Pro C#", "{93C8AC87-6459-48E7-9E82-76F601B26688}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part I - Introducing C# and .NET 6", "Part I - Introducing C# and .NET 6", "{5D1E4148-E076-4F2D-BAF7-0ACC7D836C21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 01 - Introduction", "Ch 01 - Introduction", "{54C1CD72-3D1F-401F-BE26-AB899B2E5841}"
+	ProjectSection(SolutionItems) = preProject
+		01_01_history_of_dotnet.md = 01_01_history_of_dotnet.md
+		HelloWorld\01_02_benefits_of_dotnet.md = HelloWorld\01_02_benefits_of_dotnet.md
+		HelloWorld\01_03_why_c_sharp.md = HelloWorld\01_03_why_c_sharp.md
+		HelloWorld\01_04_dotnet_assemblies.md = HelloWorld\01_04_dotnet_assemblies.md
+		HelloWorld\01_05_role_of_cil.md = HelloWorld\01_05_role_of_cil.md
+		HelloWorld\01_06_type_metadata.md = HelloWorld\01_06_type_metadata.md
+		HelloWorld\01_07_assembly_manifest.md = HelloWorld\01_07_assembly_manifest.md
+		HelloWorld\01_08_common_type_system.md = HelloWorld\01_08_common_type_system.md
+		HelloWorld\01_09_cts_members.md = HelloWorld\01_09_cts_members.md
+		HelloWorld\01_10_common_language_specification.md = HelloWorld\01_10_common_language_specification.md
+		HelloWorld\01_11_the_dotnet_runtime.md = HelloWorld\01_11_the_dotnet_runtime.md
+		HelloWorld\01_12_exploring_assemblies.md = HelloWorld\01_12_exploring_assemblies.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{79BBE31A-A742-411F-B84A-AA9894C515DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 02 - Buliding Applications", "Ch 02 - Buliding Applications", "{3F48A3F4-7FE0-45DD-BF64-850E820D2D8C}"
+	ProjectSection(SolutionItems) = preProject
+		02_01_installing_dotnet.md = 02_01_installing_dotnet.md
+		02_02_build_tools.md = 02_02_build_tools.md
+		02_03_sample_project.md = 02_03_sample_project.md
+		02_04_debugging_code.md = 02_04_debugging_code.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCSharpConsoleApp", "SimpleCSharpConsoleApp\SimpleCSharpConsoleApp.csproj", "{0C10BD96-5754-4D4D-8AE2-047D2DA489FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79BBE31A-A742-411F-B84A-AA9894C515DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BBE31A-A742-411F-B84A-AA9894C515DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BBE31A-A742-411F-B84A-AA9894C515DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BBE31A-A742-411F-B84A-AA9894C515DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C10BD96-5754-4D4D-8AE2-047D2DA489FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C10BD96-5754-4D4D-8AE2-047D2DA489FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C10BD96-5754-4D4D-8AE2-047D2DA489FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C10BD96-5754-4D4D-8AE2-047D2DA489FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA8EBDDC-686D-449D-9100-FB77DF24FB63} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A46A5285-C617-4EFB-9AE9-CC66445FCEB7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0CC5BC8C-1DA7-437A-BAAB-93C917B4302B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CB5526E7-DE43-489E-92AF-1AAF789F7FD1} = {FA8EBDDC-686D-449D-9100-FB77DF24FB63}
+		{82E0882E-F50A-410F-8CD1-18306CF96F94} = {FA8EBDDC-686D-449D-9100-FB77DF24FB63}
+		{5D1E4148-E076-4F2D-BAF7-0ACC7D836C21} = {93C8AC87-6459-48E7-9E82-76F601B26688}
+		{54C1CD72-3D1F-401F-BE26-AB899B2E5841} = {5D1E4148-E076-4F2D-BAF7-0ACC7D836C21}
+		{79BBE31A-A742-411F-B84A-AA9894C515DA} = {54C1CD72-3D1F-401F-BE26-AB899B2E5841}
+		{3F48A3F4-7FE0-45DD-BF64-850E820D2D8C} = {5D1E4148-E076-4F2D-BAF7-0ACC7D836C21}
+		{0C10BD96-5754-4D4D-8AE2-047D2DA489FE} = {3F48A3F4-7FE0-45DD-BF64-850E820D2D8C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAF474B8-E7BC-4E61-8F50-F2741A520D90}
+	EndGlobalSection
+EndGlobal
