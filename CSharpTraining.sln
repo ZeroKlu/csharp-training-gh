@@ -234,6 +234,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 02 - Buliding Applicatio
 		02_02_build_tools.md = 02_02_build_tools.md
 		02_03_sample_project.md = 02_03_sample_project.md
 		02_04_debugging_code.md = 02_04_debugging_code.md
+		02_05_navigating_visual_studio.md = 02_05_navigating_visual_studio.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCSharpConsoleApp", "SimpleCSharpConsoleApp\SimpleCSharpConsoleApp.csproj", "{0C10BD96-5754-4D4D-8AE2-047D2DA489FE}"

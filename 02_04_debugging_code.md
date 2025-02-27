@@ -81,6 +81,11 @@ To continue running, you can press [F5] or click the continue button.
 ### Picking an IDE
 
 Moving forward, we will be using more of the advanced tools included with
-Visual Studio, so I will no longer be presenting both IDEs.
+Visual Studio, so I will no longer be presenting examples related to Visual
+Studio Code.
+
+This repository, for example, uses Visual Studio solution folders rather
+than an actual folder tree for file organization and is poorly suited to
+use in VS Code.
 
 ---
